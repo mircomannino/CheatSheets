@@ -9,7 +9,7 @@ Cheat sheet of g++ compilation flags.
 * ```-o <filename>``` Compiles and links file into an executable named \<filename\>
 * ```-c``` Compiles and assembles files without linking them. 
 
-#### OPTIMIZATION FLAG 
+#### OPTIMIZATION FLAGS
 Each of the following flags enable/disable a set of other flags. Please look at the [official page](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html) for details.
 * ```-O0``` Reduces compilation time and make debugging produce the expected results. It is the default optimization flag.
 * ```-O1```
