@@ -1,5 +1,4 @@
 ## g++ cheat sheet
-Cheat sheet of g++ compilation flags.
 
 #### <span style="color:purple"> MOST COMMON  </span>
 * ```-version``` Shows the version of g++
@@ -8,6 +7,8 @@ Cheat sheet of g++ compilation flags.
 * ```--std=c++<N>``` Uses the version \<N\> of C++ during compilation.
 * ```-o <filename>``` Compiles and links file into an executable named \<filename\>
 * ```-c``` Compiles and assembles files without linking them. 
+
+---
 
 #### <span style="color:purple"> OPTIMIZATION FLAGS </span>
 Each of the following flags enable/disable a set of other flags. Please look at the [official page](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html) for details.
@@ -18,3 +19,5 @@ Each of the following flags enable/disable a set of other flags. Please look at 
 * ```-Os``` Optimize for size. It enables all the ```-O2``` flags except those that often increase code size.
 * ```-Ofast``` Disregard strict standards compliance.
 * ```-Og``` Optimize debugging experience.
+
+---

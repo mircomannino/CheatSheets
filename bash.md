@@ -1,5 +1,4 @@
 ## Bash scripting cheat sheet
-Cheat sheet of bash scripting commands.
 
 #### <span style="color:purple"> BASH INTERPRETER </span>
 Always start your *.sh file with:

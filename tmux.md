@@ -1,7 +1,5 @@
 ## Tmux cheat sheet
 
-Cheat sheet of Tmux tool.
-
 #### <span style="color:purple"> SHORT DESCRIPTION </span>
 Tmux is a terminal multiplexer: it enables a number of terminals to be created, accessed, and controlled from a single screen.
 The main parts of Tmux are: _sessions_, _windows_ and _panels_.
