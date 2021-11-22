@@ -18,3 +18,8 @@ The available cheat sheets are listed below:
 ### TOOLS
 * [Tmux](./tmux.md)
 
+---
+
+#### Info
+Author: Mirco Mannino (<mirco.mannino@student.unisi.it>), PhD student at University of Siena.
+
