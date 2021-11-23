@@ -1,6 +1,6 @@
 ## Bash scripting cheat sheet
 
-#### <span style="color:purple"> BASH INTERPRETER </span>
+#### BASH INTERPRETER
 Always start your *.sh file with:
 ```bash
 #!/bin/bash
@@ -8,7 +8,7 @@ Always start your *.sh file with:
 
 ---
 
-#### <span style="color:purple"> IF-ELSE STATEMENT </span>
+#### IF-ELSE STATEMENT
 The syntax for an if-else statement is the following:
 ```bash
 if [ <condition> ]; then

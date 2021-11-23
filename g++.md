@@ -1,6 +1,6 @@
 ## g++ cheat sheet
 
-#### <span style="color:purple"> MOST COMMON  </span>
+#### MOST COMMON  
 * ```-version``` Shows the version of g++
 * ```-Wall``` Shows all the warnings during compilation
 * ```-g``` Produces debug information for your code. It can be used with [gdb](https://github.com/mircomannino/CheatSheets)
@@ -10,7 +10,7 @@
 
 ---
 
-#### <span style="color:purple"> OPTIMIZATION FLAGS </span>
+#### OPTIMIZATION FLAGS 
 Each of the following flags enable/disable a set of other flags. Please look at the [official page](https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html) for details.
 * ```-O0``` Reduces compilation time and make debugging produce the expected results. It is the default optimization flag.
 * ```-O1```
