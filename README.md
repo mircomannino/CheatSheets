@@ -6,6 +6,7 @@ The available cheat sheets are listed below:
 <!-- Compilers table -->
 ### COMPILERS
 * [g++](./g++.md)
+* [CMake](./cmake.md)
 
 ---
 
