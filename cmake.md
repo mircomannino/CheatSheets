@@ -6,7 +6,7 @@ CMake is an open-source, cross-platform family of tools designed to build, test 
 ---
 
 ### HOW TO RUN
-Your project must contains a ```CMakeList.txt``` file. This file contains all the information to 
+Your project must contain a ```CMakeList.txt``` file. This file contains all the information to 
 create a ```Makefile``` that can be use to compile your source files.
 ```bash
 cmake . 
