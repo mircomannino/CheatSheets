@@ -1,18 +1,18 @@
 ## Crontab cheat sheet
 
-#### SHORT DESCRIPTION
+### SHORT DESCRIPTION
 Crontab is a linux command-line tool that allow to schedule in a very efficient way your task
 
 ---
 
-#### OPEN CONFIGURATION FILE
+### OPEN CONFIGURATION FILE
 ```bash
 user@machine crontab -e
 ```
 
 ---
 
-#### CRONTAB FILE FORMAT
+### CRONTAB FILE FORMAT
 The format is the following 
 > ```minute```  ```hour```  ```day-of-month``` ```month``` ```day-of-week``` command
 
