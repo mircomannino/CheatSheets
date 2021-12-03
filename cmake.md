@@ -17,6 +17,19 @@ make
 
 ---
 
+### CMAKE VARIABLES
+Cmake has a set of variables that can be used in order to manage the creation of the Makefile. 
+__HOW TO SET A VARIABLE__
+``` 
+set(VARIABLE_NAME VARIABLE_VALUE)
+```
+__MAIN CMAKE VARIABLES (and common values)__
+```
+set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -Wall -O3 -g") # Debug option
+```
+
+---
+
 ### BASIC TEMPLATE
 Assume to have a basic project-directory, of a project called __HelloCMake__, organized as:
 ```
