@@ -26,6 +26,20 @@ The ```<condition>``` could be one of the following:
 | \<string_1\> = \<string_2\> | \<string_1\> and \<string_2\> are the same|
 | \<string_1\> != \<string_2\> | \<string_1\> and \<string_2\> are the different|
 
-https://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php
+[1] https://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php
 
 ---
+
+### REPLACE A STRING
+The syntax to replace a string is the following:
+```bash
+NEW_STRING = ${STRING//[<chars-to-replace>]/<new-char>}
+```
+An example:
+```bash
+MY_STRING="today_is_monday"
+NEW_STRING=${MY_STRING//[_]/-}
+echo NEW_STRING
+# OUTPUT: today-is-monday
+```
+
