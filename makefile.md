@@ -4,6 +4,7 @@
 Makefile tamplates
 
 ### BASIC TEMPLATE
+```
 CXX = g++
 CXXFLAGS = -std=c++11 -c -O3 -I.
 SOURCES = main.cpp
@@ -20,4 +21,4 @@ main: $(OBJECTS) assembly.s
 .PHONY: clean
 clean:
     rm -rf *.o micro_kernel
-                             
+```                           
