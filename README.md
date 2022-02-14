@@ -7,6 +7,7 @@ The available cheat sheets are listed below:
 ### COMPILERS
 * [g++](./g++.md)
 * [CMake](./cmake.md)
+* [Makefile](./makefile.md)
 
 ---
 
