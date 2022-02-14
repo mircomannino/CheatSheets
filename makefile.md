@@ -4,6 +4,13 @@
 Makefile tamplates
 
 ### BASIC TEMPLATE
+Assume to have a basic project-directory, organized as:
+```
+Project
+├── main.cpp
+├── header.hh
+```
+Use the following make file to compile:
 ```
 CXX = g++
 CXXFLAGS = -std=c++11 -c -O3 -I.
@@ -12,8 +19,8 @@ OBJECTS = $(SOURCES:.cpp=.o)
 
 all: main
 
-main: $(OBJECTS) assembly.s
-    $(CXX) -o $@ $(OBJECTS) assembly.s $(LDFLAGS)
+main: $(OBJECTS)
+    $(CXX) -o $@ $(OBJECTS) $(LDFLAGS)
 
 %.o: %.cpp
     $(CXX) $(CXXFLAGS) $< -o $@
