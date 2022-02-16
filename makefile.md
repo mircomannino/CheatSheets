@@ -12,20 +12,26 @@ Project
 ```
 Use the following make file to compile:
 ```
-CXX = g++
-CXXFLAGS = -std=c++11 -c -O3 -I.
-SOURCES = main.cpp
-OBJECTS = $(SOURCES:.cpp=.o)
+TARGET = main
+LIBS = -lm
+CC = gcc
+CFLAGS = -g -Wall
 
-all: main
+.PHONY: default all clean
 
-main: $(OBJECTS)
-    $(CXX) -o $@ $(OBJECTS) $(LDFLAGS)
+default: $(TARGET)
+all: default
 
-%.o: %.cpp
-    $(CXX) $(CXXFLAGS) $< -o $@
+OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+HEADERS = $(wildcard *.h)
 
-.PHONY: clean
+%.o: %.c $(HEADERS)
+    $(CC) $(CFLAGS) -c $< -o $@
+
+$(TARGET): $(OBJECTS)
+    $(CC) $(OBJECTS) -Wall $(LIBS) -o $@
+
 clean:
-    rm -rf *.o micro_kernel
+    -rm -f *.o
+    -rm -f $(TARGET)
 ```                           
