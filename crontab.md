@@ -35,6 +35,11 @@ Example
 ### Schedule command every twenty minutes betwen 8 to 17, on Monday to Friday
 0,20,40 8-17 * * 1-5 /path/to/my/command
 ```
-
+###### ATTENTION
+If "path/to/command" is a .sh file, be sure that it can be executed. For example, if you want to run the file /home/user1/run_backup.sh, run the following command:
+```
+chmod u+x /home/user1/run_backup.sh
+```
 ---
+
 
