@@ -14,7 +14,7 @@ Use the following make file to compile:
 ```
 TARGET = main
 LIBS = -lm
-CC = gcc
+CC = g++
 CFLAGS = -g -Wall
 
 .PHONY: default all clean
@@ -22,7 +22,7 @@ CFLAGS = -g -Wall
 default: $(TARGET)
 all: default
 
-OBJECTS = $(patsubst %.c, %.o, $(wildcard *.c))
+OBJECTS = $(patsubst %.cpp, %.o, $(wildcard *.cpp))
 HEADERS = $(wildcard *.h)
 
 %.o: %.c $(HEADERS)
