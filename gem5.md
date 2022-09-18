@@ -1,8 +1,8 @@
 ## GEM5 cheat sheet
 
 ### m5ops instructions
-```m5 ops``` can be used to reset stats and dump stats during simulation. In order to ise them, you have to:
-1. Build m5 and libm5.a
+```m5 ops``` can be used to reset stats and dump stats during simulation. In order to use them, you have to:
+1. Build m5 and libm5.a:
     ```bash
     cd gem5/util/m5
 
@@ -12,15 +12,17 @@
     # riscv build
     scons riscv.CROSS_COMPILE=<path/to/riscv64-unknown-linux-gnu-> 
     ```
-2. Include m5ops.h
-    **test.cpp**
+2. Include m5ops.h:
     ```c++
+    File: test.cpp
+
     #include <gem5/m5ops.h>
     // Your source code....
     ```
 3. Add m5ops instructions in your source code
-    **test.cpp**
     ```c++
+    File: test.cpp
+
     // Initialization code...
 
     m5_reset_stats(0, 0); // Reset stats
@@ -31,9 +33,10 @@
 
     // Other code...
     ```
-4. Add compile and link options to your Makefile
-    **Makefile (riscv)**
+4. Add compiler and linker options to your Makefile
     ```bash
+    File: Makefile (riscv)
+
     CXX = <path/to/riscv-bin-folder>/riscv64-unknown-linux-gnu-g++
     CXXFLAGS = -std=c++17 -c -march=rv64g -mabi=lp64d -O3 -I.
     SOURCES = test.cpp
@@ -58,8 +61,9 @@
         rm -rf *.o test
     ```
 
-     **Makefile (x86)**
     ```bash
+    File: Makefile (x86)
+
     CXX = g++
     CXXFLAGS = -std=c++17 -c -O3 -I.
     SOURCES = test.cpp
