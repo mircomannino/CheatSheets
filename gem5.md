@@ -10,7 +10,7 @@
     scons build/x86/out/m5  
 
     # riscv build
-    scons riscv.CROSS_COMPILE=<path/to/riscv64-unknown-linux-gnu-> 
+    scons riscv.CROSS_COMPILE=<path/to/riscv64-unknown-linux-gnu-> build/riscv/out/m5 
     ```
 2. Include m5ops.h:
     ```c++
