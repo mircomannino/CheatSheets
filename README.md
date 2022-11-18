@@ -20,6 +20,7 @@ The available cheat sheets are listed below:
 <!-- Programming/Scripting table -->
 ### PROGRAMMING & SCRITPING
 * [Bash](./bash.md)
+* [Matplotlib](./matplotlib.md)
 
 --- 
 
