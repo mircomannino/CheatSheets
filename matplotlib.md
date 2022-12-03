@@ -1,4 +1,4 @@
-## Bash scripting cheat sheet
+## Matplotlib cheat sheet
 
 ### Pandas DataFrame + Hatches
 ```python

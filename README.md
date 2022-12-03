@@ -9,6 +9,10 @@ The available cheat sheets are listed below:
 
 ---
 
+<!-- Embedded systems -->
+### EMBEDDED SYSTEMS 
+* [ESP32](./esp32.md)
+
 <!-- Compilers table -->
 ### COMPILERS
 * [g++](./g++.md)
