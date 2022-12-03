@@ -11,7 +11,7 @@
 
 
 ### ESP-IDF path configuration in VSCode
-Assuming to have __esp-idf__ installed in ``` ESP_IDF_PATH ```
+Assuming to have __esp-idf__ installed in default path (~/esp)
 
 In order to include correctly esp-idf paths in your project modify the 
 ``` c_cpp_properties.json ``` file (```Ctrl + Shift + p``` and search for 
