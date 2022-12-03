@@ -3,10 +3,10 @@
 ### ESP-IDF commands
 |                COMANND                |                DESCRIPTION               |
 |:-------------------------------------:|:----------------------------------------:|
-|    ```idf.py create-project <name>``` | Create new project called <name>         |
+|    ```idf.py create-project <name>``` | Create new project called "name"         |
 |    ```idf.py build```                 | Build the current project                |
 |    ```idf.py set-target <target> ```  | Change target board (es. esp32, esp32s3) |
-|    ```idf.py -p <port> flash  ```     | Flash on port <port>                     |
+|    ```idf.py -p <port> flash  ```     | Flash on port "port"                     |
 |    ```idf.py monitor ```              | Open serial monitor (```Ctrl + ]``` to exit)|
 
 ---

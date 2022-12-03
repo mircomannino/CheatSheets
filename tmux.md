@@ -12,11 +12,11 @@ In each session you can create multiple windows that can contain multiple panel.
 #### Main commands
 |                COMANND                |                DESCRIPTION               |
 |:-------------------------------------:|:----------------------------------------:|
-|    ```tmux new -s <session-name>```   | Create new session called <session-name> |
-| ```tmux kill-ses -t <session-name>``` |    Kill session called <session-name>   |
+|    ```tmux new -s <session-name>```   | Create new session called "session-name" |
+| ```tmux kill-ses -t <session-name>``` |    Kill session called "session-name"  |
 |             ```tmux ls```             |             Show all sessions            |
 |             ``` tmux a```             |          Attach to last session          |
-|    ``` tmux a -t <session-name> ```   |     Attach to session <session-name>     |
+|    ``` tmux a -t <session-name> ```   |     Attach to session "session-name"     |
   
 #### Shortcuts
 |        SHORTCUT        |         DESCRIPTION         |
