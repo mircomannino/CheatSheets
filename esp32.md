@@ -9,6 +9,7 @@
 |    ```idf.py -p <port> flash  ```     | Flash on port <port>                     |
 |    ```idf.py monitor ```              | Open serial monitor (```Ctrl + ]``` to exit)|
 
+---
 
 ### ESP-IDF path configuration in VSCode
 Assuming to have __esp-idf__ installed in default path (~/esp)
