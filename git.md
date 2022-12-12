@@ -9,7 +9,7 @@ The organization and content of this cheat sheet is strongly based on the book [
 Every configuration command has the following format
 ```bash
 git config --{local,global,system} <parameter> <value>
-# order of importance (less important to more important): system,global,local
+# order of importance (less important to most important): system,global,local
 ```
 Most common parameters are:
 ``` bash
