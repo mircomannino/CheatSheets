@@ -5,6 +5,7 @@ The organization and content of this cheat sheet is strongly based on the book [
 
 ### 1. Getting Started
 **Basic configuration**
+
 Every configuration command has the following format
 ```bash
 git config --{local,global,system} <parameter> <value>
@@ -19,6 +20,7 @@ git config --global alias.cp cherry-pick            # Alias
 ```
 
 **Repository initialization**
+
 ```bash
 # Create a new empy repository
 git init <directory>
@@ -30,6 +32,7 @@ git commit -m "Begin project XXX"
 ```
 
 **Ignoring files**
+
 Add a ```.gitignore``` file into your repository and use the following *ignore patterns*:
 ```bash
 # Ignore a specific file in a subdirectory
