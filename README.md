@@ -13,6 +13,8 @@ The available cheat sheets are listed below:
 ### EMBEDDED SYSTEMS 
 * [ESP32](./esp32.md)
 
+---
+
 <!-- Compilers table -->
 ### COMPILERS
 * [g++](./g++.md)
@@ -23,6 +25,7 @@ The available cheat sheets are listed below:
 
 <!-- Programming/Scripting table -->
 ### PROGRAMMING & SCRITPING
+* [Git](./git.md)
 * [Bash](./bash.md)
 * [Matplotlib](./matplotlib.md)
 
