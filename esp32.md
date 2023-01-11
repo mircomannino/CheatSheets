@@ -2,7 +2,7 @@
 
 ### Board info and links
 * Model: ESP32 -S3 -DevKitC-1-N8R8 WROOM-1
-* [Datashet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+* [Datasheet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
 * [ESP-IDF Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
 
 ### Activate ESP-IDF env 
