@@ -1,5 +1,21 @@
 ## ESP32 cheat sheet
 
+### Board info and links
+* Model: ESP32 -S3 -DevKitC-1-N8R8 WROOM-1
+* [Datashet](https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf)
+* [ESP-IDF Documentation](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html)
+
+### Activate ESP-IDF env 
+Add the following lines to your `.bashrc` file:
+```bash 
+ESP_PATH=<path/to/esp/folder>
+alias get_idf='. $ESP_PATH/esp-idf/export.sh'
+```
+Run the following command to activate the environment: 
+```bash 
+user@machine:/$ get_idf 
+```
+
 ### ESP-IDF commands
 |                COMANND                |                DESCRIPTION               |
 |:-------------------------------------:|:----------------------------------------:|
