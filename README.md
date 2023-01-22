@@ -31,7 +31,8 @@ The available cheat sheets are listed below:
 
 --- 
 
-### LINUX TOOLS
+### LINUX 
+* [Kernel](./kernel.md)
 * [Tmux](./tmux.md)
 * [Crontab](./crontab.md)
 
