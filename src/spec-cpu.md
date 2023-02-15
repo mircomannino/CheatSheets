@@ -40,3 +40,9 @@ runcpu --fake --loose --size test --tune base --config myconfig 505.mcf_r
 ```
 
 ---
+
+#### RISC-V benchmarks
+
+Configuration file: [Example-gcc-linux-gcc.cfg](https://www.spec.org/cpu2017/Docs/Example-gcc-linux-riscv.cfg)
+
+---
