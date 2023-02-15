@@ -32,3 +32,11 @@ runcpu --action clean --config myconfig 505.mcf_r
 
 ---
 
+#### Buld a single benchmark without runcpu
+```bash
+cd $SPEC
+source shrc
+runcpu --fake --loose --size test --tune base --config myconfig 505.mcf_r
+```
+
+---
