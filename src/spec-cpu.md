@@ -36,7 +36,19 @@ runcpu --action clean --config myconfig 505.mcf_r
 ```bash
 cd $SPEC
 source shrc
+# Prepare folders
 runcpu --fake --loose --size test --tune base --config myconfig 505.mcf_r
+# Build binaries
+go mcf_r build
+specmake clean
+specmake
+# Configure run folder
+go mcf_r run
+cp ../../build/mcf_r .
+# Check how to run benchmark
+go mcf_r run
+specinvoke -n
+
 ```
 
 ---
