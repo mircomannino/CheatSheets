@@ -8,8 +8,8 @@
 #### Installation (Ubuntu 18.04 LTS)
 To install apio ecosystem follow the instructions from the [official documentation](https://github.com/FPGAwars/apio/wiki/Quick-start#apio-installation)
 
-#### Installation/Usage Issues
-Some problems (and solutions) I encountered during apio installation and prject build/upload:
+#### Installation/Usage issues
+Some problems (and solutions) I encountered during apio installation and project build/upload:
 * ```sh: iceprogduino: command not found```:
     * **When**: After running "apio upload"
     * **Solution**:
