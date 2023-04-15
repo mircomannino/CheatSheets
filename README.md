@@ -13,6 +13,7 @@ The available cheat sheets are listed below:
 <!-- Embedded systems -->
 ### EMBEDDED SYSTEMS 
 * [ESP32](./src/esp32.md)
+* [FPGA](./src/fpga.md)
 
 ---
 
