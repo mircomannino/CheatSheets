@@ -11,6 +11,7 @@ To install apio ecosystem follow the instructions from the [official documentati
 #### Installation/Usage Issues
 Some problems (and solutions) I encountered during apio installation and prject build/upload:
 * ```sh: iceprogduino: command not found```:
+
     **When**: After running "apio upload"
     **Solution**:
     ```
@@ -20,6 +21,7 @@ Some problems (and solutions) I encountered during apio installation and prject 
     sudo make install
     ```
 * ```board icestick not connected```:
+
     **When**: After running "apio upload"
     **Solution**:
     Check the description of your board using "apio system --lsftdi". 
