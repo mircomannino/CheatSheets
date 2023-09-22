@@ -60,3 +60,18 @@ git update-index --assume-unchanged     # Apply .gitignore rules also to tracked
 ---
 
 ### 2. Making Commits
+
+--- 
+
+### MISC
+# Add more files to the last commit
+'''bash
+git add <new files>
+git commit --amend --no-edit
+'''
+
+# Merge 2+ commits
+'''bash
+git reset --soft HEAD~$NUM_COMMITS
+git commit
+''' 
